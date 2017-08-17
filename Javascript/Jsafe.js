@@ -8,3 +8,13 @@ function scrolled(){
 }
 
 addEventListener("scroll", scrolled, false);
+
+
+
+        var image=["Objet/image2.jpg","Objet/image3.jpg","Objet/image4.jpg","Objet/image1.jpg"];
+        var i = 0;
+        setInterval(function(){
+            $('#GrandeIntro').css("background-image","url("+image[i]+")");
+            i++;
+            if(i==4) i=0;
+        },3000);

@@ -1,6 +1,6 @@
 
 html, body {height:100%;margin:0;}
-#GrandeIntro {height:100%;width: 100%; background-image: url("Objet/fond.jpg"); background-size:cover; background-repeat: no-repeat;}
+#GrandeIntro {height:100%;width: 100%; background-image: url("Objet/image1.jpg"); background-size:cover; background-repeat: no-repeat;}
 #siteWrapper {margin-top:-80px;}
 #siteWrapper header {height:80px;background:#000;}
 #siteWrapper header.fixed {position:fixed;width:100%;top:0;left:0;}
