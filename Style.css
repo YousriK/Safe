@@ -20,12 +20,33 @@ html, body {height:100%;margin:0;}
 	height: 100%;
 	display: flex;
     justify-content: flex-start;
+    text-decoration: none;
 
 }
 .navi{
 	width: 100%;
 	height: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
 }
+.navi ul{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+li{
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+
 .conteneur{
 	display: flex;
 	justify-content: center;
@@ -47,7 +68,7 @@ html, body {height:100%;margin:0;}
 	width: 30px;
 	height: 30px;
 }
-.fond_twi, .fond_lin, .fond_face{
+.fond_twi, .fond_lin, .fond_face, .fond_mess{
 	top: -40px;
 	z-index: 1;
 	display: block;
@@ -73,5 +94,11 @@ html, body {height:100%;margin:0;}
 	background-color: #0e76a8;
 }
 .social:hover .fond_lin {
+	top: 0;
+}
+.fond_mess{
+	background-color: red;
+}
+.social:hover .fond_mess {
 	top: 0;
 }
