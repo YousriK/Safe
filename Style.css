@@ -4,27 +4,40 @@ html, body {height:100%;margin:0;}
 #siteWrapper {margin-top:-80px;}
 #siteWrapper header {height:80px;background:#000;}
 #siteWrapper header.fixed {position:fixed;width:100%;top:0;left:0;}
-#content {padding:60px 0;background:#0c9;}
+#content {padding:60px 0;background:#DCDCDC;}
 #siteWrapper header.fixed+#content {margin-top:80px;}
-#content div {width:80%;height:1500px;margin:auto;border:solid;}
+#content section {width:80%;height:1500px;margin:auto;border:solid;background:#FFFAFA;}
 
+
+.foot{
+	background:#000;
+	height: 50px;
+}
 .white {
 	text-decoration: none;
 	color: white;
 }
-.white:hover{
+
+.white:hover {
 	text-decoration: none;
 	color: #23527C
 }
-.white:visited{
+.white:visited {
 	text-decoration: none;
 }
-.white:active{
+.white:active {
 	text-decoration: none;
 }
 .white:focus{
 	text-decoration: none;	
 }
+.black{
+	color: #000000;
+}
+
+
+
+
 .logo{
 	height:100%; 
 

@@ -18,3 +18,13 @@ addEventListener("scroll", scrolled, false);
             i++;
             if(i==4) i=0;
         },3000);
+
+
+
+$(function(){
+	$('#Competences').hide();
+	$('.white').click(function(){
+		$('#Accueil').hide();
+		$('#Competences').show();
+	});
+});
