@@ -9,7 +9,21 @@ html, body {height:100%;margin:0;}
 #content div {width:80%;height:1500px;margin:auto;border:solid;}
 
 .white {
+	text-decoration: none;
 	color: white;
+}
+.white:hover{
+	text-decoration: none;
+	color: #23527C
+}
+.white:visited{
+	text-decoration: none;
+}
+.white:active{
+	text-decoration: none;
+}
+.white:focus{
+	text-decoration: none;	
 }
 .logo{
 	height:100%; 
@@ -20,7 +34,8 @@ html, body {height:100%;margin:0;}
 	height: 100%;
 	display: flex;
     justify-content: flex-start;
-    text-decoration: none;
+    align-items: center;
+
 
 }
 .navi{
@@ -28,7 +43,7 @@ html, body {height:100%;margin:0;}
 	height: 100%;
 	display: flex;
 	justify-content: center;
-    align-items: center;
+    
 }
 .navi ul{
 	width: 100%;
@@ -36,14 +51,26 @@ html, body {height:100%;margin:0;}
 	justify-content: center;
     align-items: center;
 }
-li{
+.ecriture {
 	text-decoration: none;
-}
+    font-size: 1.5em;
+    list-style : none;
 
-a{
-	text-decoration: none;
 }
-
+.ecriture{
+	width: 100%;
+	height: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ecriture li {
+	width: 100%;
+	height: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
