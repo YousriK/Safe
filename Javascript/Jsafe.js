@@ -21,10 +21,3 @@ addEventListener("scroll", scrolled, false);
 
 
 
-$(function(){
-	$('#Competences').hide();
-	$('.white').click(function(){
-		$('#Accueil').hide();
-		$('#Competences').show();
-	});
-});
